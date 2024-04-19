@@ -1,11 +1,11 @@
-type User2 = {
+type Сonsumer = {
 	name: string;
 	surname: string;
 	email: string;
 	password: string;
 };
 
-function createOrUpdateUser(initialValues: Partial<User2>) {
+function createOrUpdateUser(initialValues: Partial<Сonsumer>) {
 	// Оновлення користувача
 }
 
